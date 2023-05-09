@@ -1,0 +1,37 @@
+.user-count {
+  @apply w-full h-fit p-[5px];
+}
+
+.user-count .text {
+  @apply h-full w-[200px] p-[10px] border-2 border-black bg-black rounded-lg whitespace-normal;
+}
+.user-count .text .title {
+  @apply text-[20px] font-bold block text-white;
+}
+
+.user-count .text .count {
+  @apply text-[50px] font-semibold text-white m-auto;
+}
+
+.text:hover {
+  @apply bg-white;
+}
+.text:hover .title {
+  @apply text-black;
+}
+.text:hover .count {
+  @apply text-black;
+}
+.text:hover {
+  @apply transition-all duration-300 ease-in-out;
+}
+
+.search-user {
+  @apply h-fit w-fit my-2 p-[5px] flex justify-around;
+}
+.search-user .input {
+  @apply m-2;
+}
+.search-box {
+  @apply w-[200px] m-[2px] p-1 outline-none border border-blue-500 rounded-md;
+}

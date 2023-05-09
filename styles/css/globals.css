@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply m-0 p-0;
+}
+
+#root {
+  @apply w-full h-screen overflow-auto;
+}
+
+#root::-webkit-scrollbar {
+  @apply w-[7px];
+}
+
+#root::-webkit-scrollbar-track {
+  @apply rounded-md bg-gray-400;
+}
+
+#root::-webkit-scrollbar-thumb {
+  @apply rounded-md border-2 bg-gray-500 border-gray-400;
+}
+
+#root::-webkit-scrollbar-thumb:hover {
+  @apply hover:bg-slate-700;
+}
+
+.user-list {
+  @apply w-full h-full;
+}
+
+.main {
+  @apply w-full p-8;
+}

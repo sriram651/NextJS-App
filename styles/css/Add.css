@@ -1,0 +1,24 @@
+.add {
+    @apply m-auto p-[20px] flex flex-col justify-center items-center
+}
+.add .title {
+    @apply text-[26px] font-bold
+}
+.user-registration {
+    @apply mt-4 min-w-[400px] p-4 h-fit
+}
+.user-registration label {
+    @apply w-fit text-[16px] font-semibold block;
+}
+.user-registration input {
+    @apply w-[90%] m-0 my-1 py-2 px-4 text-[16px] outline-0 border-[0.4px] border-blue-500 rounded-md;
+}
+.user-registration select {
+    @apply w-[90%] m-0 my-1 py-2 px-4 text-[16px] outline-0 border-[0.4px] border-blue-500 rounded-md;
+}
+.user-registration .add-btn {
+    @apply my-4 mx-auto p-1 w-28 bg-pink-500 text-white font-semibold border-2 border-pink-500 rounded-md cursor-pointer;
+}
+.add-btn:hover {
+    @apply bg-white text-pink-500;
+}
