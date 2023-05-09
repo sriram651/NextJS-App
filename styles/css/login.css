@@ -1,0 +1,22 @@
+* {
+    @apply m-0 p-0
+}
+
+.login {
+    @apply w-full h-fit p-8 m-auto flex items-center justify-around;
+}
+
+.login h1 {
+    @apply text-[30px] font-bold text-center
+}
+
+.login .button {
+    @apply m-auto p-2 bg-blue-500 border border-blue-500
+}
+
+.login .images {
+    @apply flex flex-row p-6
+}
+.login img {
+    @apply w-36 h-36 m-2 border rounded-full 
+}

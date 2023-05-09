@@ -1,0 +1,26 @@
+.nav-bar {
+    @apply w-full h-[60px] m-0 p-6 bg-slate-50 border-b-[0.5px] border-blue-200 flex items-center justify-between;
+  }
+  
+  .nav-bar .page-name {
+    @apply m-1 text-[20px] font-semibold;
+  }
+  
+  .nav-bar .nav-title {
+    @apply flex items-center;
+  }
+  
+  .nav-bar .links {
+    @apply flex items-center;
+  }
+  .nav-bar a {
+    @apply m-2 p-2 border-none rounded-md;
+  }
+  
+  .nav-bar a:hover {
+    @apply bg-black text-white;
+  }
+  
+  .nav-bar a.active {
+    @apply bg-black text-white;
+  }
