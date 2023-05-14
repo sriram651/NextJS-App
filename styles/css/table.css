@@ -19,12 +19,53 @@
 }
 
 .user-table td {
-    @apply text-base px-6 py-3 text-center
+    @apply text-base px-6 py-3 text-center whitespace-nowrap
 }
 
+.user-table .user-id {
+    @apply w-32;
+}
+
+.user-table .name {
+    @apply w-56;
+}
+
+.user-table .lang {
+    @apply w-36;
+}
+.user-table .delete {
+    @apply p-2;
+}
+.user-table .delete-icon {
+    @apply text-red-600;
+}
 .user-table thead tr {
     @apply border border-l-0 border-r-0 bg-black text-white
 }
 .user-table tbody tr {
     @apply border-b bg-white hover:bg-blue-300 hover:opacity-90 cursor-pointer
+}
+
+.table .pagination {
+    @apply w-full p-2 
+}
+
+.table .pagination .page-numbers {
+    @apply p-2 flex justify-center;
+}
+
+.table .pagination .page-numbers button {
+    @apply border border-black min-w-[30px] h-8 m-1 p-1 rounded-full font-semibold text-black;
+}
+
+.table .pagination .page-numbers button:not(:disabled):hover {
+    @apply bg-black text-white
+}
+
+.table .pagination .page-numbers button:focus {
+    @apply bg-black text-white;
+}
+
+.table .pagination .page-numbers button:disabled {
+    @apply opacity-70 ;
 }

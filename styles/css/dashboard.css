@@ -35,3 +35,7 @@
 .search-box {
   @apply w-[200px] m-[2px] p-1 outline-none border border-blue-500 rounded-md;
 }
+
+select {
+  @apply w-[90%] m-0 my-1 py-2 px-4 text-[16px] outline-0 border-[0.4px] border-blue-500 rounded-md;
+}

@@ -15,11 +15,11 @@
 }
 
 #root::-webkit-scrollbar-track {
-  @apply rounded-md bg-gray-400;
+  @apply rounded-md bg-transparent;
 }
 
 #root::-webkit-scrollbar-thumb {
-  @apply rounded-md border-2 bg-gray-500 border-gray-400;
+  @apply rounded-md border-2 bg-gray-900 border-gray-400;
 }
 
 #root::-webkit-scrollbar-thumb:hover {
