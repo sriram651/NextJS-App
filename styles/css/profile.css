@@ -36,3 +36,7 @@
 .delete-btn:hover {
   @apply bg-white text-red-500;
 }
+
+.access-denied {
+  @apply p-2 rounded-sm text-center text-white bg-red-500
+}

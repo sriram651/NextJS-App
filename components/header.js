@@ -17,7 +17,6 @@ const Header = ({authenticate}) => {
 
     React.useEffect(() => {
         if(isConnected) {
-            alert("connected");
             // The wallet connection is stored as boolean in local storage so that all pages and components can access
             localStorage.setItem("authenticated", true);
 
@@ -29,7 +28,6 @@ const Header = ({authenticate}) => {
             router.push("/dashboard");
         }
         else {
-            alert("disconnected");
             localStorage.setItem("authenticated", false);
             setIsAuthenticated(false);
             authenticate(false);
